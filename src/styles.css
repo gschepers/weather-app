@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(
+    -20deg,
+    rgb(233, 222, 250) 0%,
+    rgb(251, 252, 219) 100%
+  );
+}
+html {
+  height: 100%;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 55px;
+}
+h1,
+h2,
+.footer {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.weather-app {
+  background: white;
+  border: 2px solid #000;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 45px auto 29px;
+  max-width: 700px;
+  padding: 20px 20px;
+}
+
+.datetime {
+  margin-bottom: 15px;
+  margin-top: 30px;
+
+  text-align: right;
+}
+.main-image {
+  font-size: 100px;
+  text-align: center;
+}
+
+.temp-range {
+  font-size: 13px;
+  font-style: italic;
+  position: relative;
+  text-align: center;
+  top: -30px;
+}
+.min {
+  padding-right: 5px;
+}
+.max {
+  padding-left: 5px;
+}
+
+.predictions {
+  padding: 0px 95px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+.rain,
+.humidity,
+.wind {
+  line-height: 1.5;
+  padding: 0px;
+  text-align: center;
+}
+.rain {
+  color: #007cb9;
+}
+.humidity {
+  color: #ff895d;
+}
+.wind {
+  color: #506f86;
+}
+.forecast {
+  margin-top: 30px;
+}
+.futuredays {
+  border-radius: 15px;
+  margin: 0px 3px;
+  padding: 5px 0px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+.futuredays:hover {
+  background: #fafadd;
+}
+.futuretemp {
+  padding-bottom: 5px;
+}
+.highlight {
+  font-weight: 600;
+}
+.forecast-image {
+  font-size: 30px;
+}
+.footer {
+  font-size: 10px;
+}
+.changeTemp {
+  font-size: 15px;
+  position: relative;
+  top: -27px;
+}
