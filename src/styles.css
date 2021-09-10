@@ -21,9 +21,6 @@ h2,
   text-align: center;
   margin: 0;
 }
-a {
-  text-decoration: none;
-}
 
 .weather-app {
   background: white;
@@ -106,7 +103,9 @@ a {
   font-size: 30px;
 }
 .footer {
+  display: block;
   font-size: 10px;
+  margin: 0 auto;
 }
 .changeTemp {
   font-size: 15px;
