@@ -111,5 +111,10 @@ a {
 .changeTemp {
   font-size: 15px;
   position: relative;
-  top: -27px;
+  top: -11px;
+}
+.currentCelcius,
+.currentFahrenheit {
+  text-decoration: none;
+  color: #000;
 }
